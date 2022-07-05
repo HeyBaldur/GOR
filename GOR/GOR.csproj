@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackageId>GOR</PackageId>
+    <Authors>HeyBaldur</Authors>
+    <Description>GOR is a useful way to work with generic responses that speed up the evaluation of server responses.</Description>
+    <RepositoryUrl>https://github.com/HeyBaldur/GOR</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>generic.png</PackageIcon>
+    <PackageIconUrl />
+    <Version>1.0.1</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\Downloads\generic.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+</Project>
